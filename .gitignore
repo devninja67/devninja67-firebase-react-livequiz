@@ -1,0 +1,34 @@
+# back-end
+
+# ignore node_modules
+/back-end/functions/node_modules
+
+# front-end
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/front-end/node_modules
+
+# testing
+/front-end/coverage
+
+# production
+/front-end/build
+
+# misc
+/front-end/.DS_Store
+/front-end/.env.local
+/front-end/.env.development.local
+/front-end/.env.test.local
+/front-end/.env.production.local
+
+/front-end/npm-debug.log*
+/front-end/yarn-debug.log*
+/front-end/yarn-error.log*
+
+
+/front-end/.idea
+
+/front-end/yarn.lock
+/front-end/package-lock.json
