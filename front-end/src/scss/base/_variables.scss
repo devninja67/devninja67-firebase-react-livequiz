@@ -1,0 +1,29 @@
+// Colors
+$custom-black: #000;
+$custom-black-light: #232323;
+$custom-white: #fff;
+$custom-gray: #f2f2f2;
+$custom-red: #ff2f4b;
+$custom-green: #7aff00;
+
+// Fonts
+$regular-font: 'gt-america-compressed-regular';
+$bold-font: 'gt-america-compressed-bold';
+$base-font: $regular-font;
+
+// Bootstrap
+$grid-gutter-width-base: 46px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1040px
+) !default;
+
+// Global
+$browser-context: 17; 
+$base-color: $custom-white;
+$font-size: #{$browser-context}px;
+$line-height: 20px;
+$transition-time: 0.2s;

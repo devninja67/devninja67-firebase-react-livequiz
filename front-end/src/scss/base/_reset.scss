@@ -1,0 +1,51 @@
+body, 
+html { 
+    margin: 0; 
+    padding: 0; 
+    outline: none; 
+    min-width: 320px; 
+}
+body { 
+    color: $base-color; 
+    font: #{$font-size}/#{$line-height} #{$base-font}, Helvetica, Arial, sans-serif; 
+}
+p, img { 
+    margin: 0; 
+    padding: 0; 
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 { 
+    font-weight: normal; 
+    padding: 0; 
+    margin: 0; 
+}
+button, 
+a { 
+    outline: none; 
+}
+a {
+    transition: all $transition-time linear;
+    color: $custom-white;
+
+    &:hover, 
+    &:focus {
+        color: $custom-green;
+        outline: none !important;
+    }
+
+    img { 
+        border: 0; 
+        display: block; 
+        outline: none; 
+        -webkit-outline: none; 
+        -moz-outline: none; 
+    }
+}
+img { 
+    max-width: 100%; 
+    height: auto; 
+}
